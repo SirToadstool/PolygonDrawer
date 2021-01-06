@@ -93,7 +93,7 @@ update();
 document.getElementById('start').onclick = function() {
   if (started === false) {
   	started = true;
-  	interval = setInterval(draw, 1000);
+  	interval = setInterval(draw, 100);
   }
 }
 
